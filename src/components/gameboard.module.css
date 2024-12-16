@@ -1,14 +1,14 @@
 .gameboard {
-  border: hidden ##eef4fb;
-  min-height: 600px;
-  min-width: 600px;
+  border: hidden #eef4fb;
+  min-height: 450px;
+  min-width: 450px;
   margin: 30px;
   display: grid;
   grid-template-rows: 1fr 10fr;
   border-radius: 15px;
   background-color: #f2f7fd;
   text-align: center;
-  padding: 10px;
+  padding: 30px;
   box-shadow: 5px 10px 10px 8px #dce6ee;
 }
 
@@ -19,16 +19,4 @@
   grid-template-rows: repeat(3, 1fr);
   border: 1px solid #f0f3f6;
   border-radius: 20px;
-}
-
-.grid {
-  border: 1px solid #f0f3f6;
-}
-
-.grid:active {
-  background-color: white;
-}
-
-.grid:hover {
-  background-color: #ecf3fd;
 }

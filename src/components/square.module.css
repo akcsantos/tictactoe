@@ -1,0 +1,17 @@
+.square {
+  .grid {
+    border: 1px solid #f0f3f6;
+  }
+
+  .square:active {
+    background-color: white;
+  }
+
+  .square:hover {
+    background-color: #ecf3fd;
+  }
+
+  .square:active {
+    transform: translateY(-0.25rem);
+  }
+}

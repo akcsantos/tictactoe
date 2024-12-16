@@ -1,0 +1,8 @@
+.centerContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100vw;
+  border: 5px solid yellow;
+  justify-content: center;
+  align-items: center;
+}
